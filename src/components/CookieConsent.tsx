@@ -96,9 +96,12 @@ const CookieConsent = () => {
                                     <p>
                                         For users located in <strong>India</strong>, personal data is processed in accordance with the <strong>Digital Personal Data Protection Act, 2023</strong>, based on your explicit and informed consent. For users in <strong>New Zealand</strong> and other regions, processing follows the <strong>New Zealand Privacy Act 2020</strong>.
                                     </p>
-                                    <div className="flex items-center gap-2 text-xs font-medium text-blue-600">
+                                    <div className="flex items-center gap-4 text-xs font-medium text-blue-600">
                                         <a href="/privacy-policy" className="hover:underline flex items-center gap-1">
-                                            View Privacy Policy <ExternalLink className="h-3 w-3" />
+                                            Privacy Policy <ExternalLink className="h-3 w-3" />
+                                        </a>
+                                        <a href="/cookie-policy" className="hover:underline flex items-center gap-1">
+                                            Cookie Policy <ExternalLink className="h-3 w-3" />
                                         </a>
                                     </div>
                                 </div>

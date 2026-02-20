@@ -11,6 +11,7 @@ import DigitalTransformationStrategy from "./pages/DigitalTransformationStrategy
 import ERPSuccessStories from "./pages/ERPSuccessStories";
 import AIAgentServices from "./pages/AIAgentServices";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
+import CookiePolicy from "./pages/CookiePolicy";
 import TermsOfService from "./pages/TermsOfService";
 
 const routes = [
@@ -64,6 +65,10 @@ const routes = [
       {
         path: "privacy-policy",
         element: <PrivacyPolicy />,
+      },
+      {
+        path: "cookie-policy",
+        element: <CookiePolicy />,
       },
       {
         path: "terms-of-service",
