@@ -1407,6 +1407,7 @@ const CenturianIT = () => {
                 <li><a href="/admin" className="text-white hover:text-blue-400 transition-colors">Admin Dashboard</a></li>
                 <li><a href="/privacy-policy" className="text-white hover:text-blue-400 transition-colors">Privacy Policy</a></li>
                 <li><a href="/cookie-policy" className="text-white hover:text-blue-400 transition-colors">Cookie Policy</a></li>
+                <li><a href="/ai-disclosure" className="text-white hover:text-blue-400 transition-colors">AI Disclosure</a></li>
                 <li><a href="/terms-of-service" className="text-white hover:text-blue-400 transition-colors">Terms of Service</a></li>
               </ul>
             </div>

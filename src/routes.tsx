@@ -12,6 +12,7 @@ import ERPSuccessStories from "./pages/ERPSuccessStories";
 import AIAgentServices from "./pages/AIAgentServices";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import CookiePolicy from "./pages/CookiePolicy";
+import AIDisclosure from "./pages/AIDisclosure";
 import TermsOfService from "./pages/TermsOfService";
 
 const routes = [
@@ -69,6 +70,10 @@ const routes = [
       {
         path: "cookie-policy",
         element: <CookiePolicy />,
+      },
+      {
+        path: "ai-disclosure",
+        element: <AIDisclosure />,
       },
       {
         path: "terms-of-service",

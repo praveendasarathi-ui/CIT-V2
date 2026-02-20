@@ -103,6 +103,9 @@ const CookieConsent = () => {
                                         <a href="/cookie-policy" className="hover:underline flex items-center gap-1">
                                             Cookie Policy <ExternalLink className="h-3 w-3" />
                                         </a>
+                                        <a href="/ai-disclosure" className="hover:underline flex items-center gap-1">
+                                            AI Disclosure <ExternalLink className="h-3 w-3" />
+                                        </a>
                                     </div>
                                 </div>
                             </div>
