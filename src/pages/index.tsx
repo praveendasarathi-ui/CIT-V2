@@ -1414,6 +1414,9 @@ const CenturianIT = () => {
           </div>
 
           <div className="border-t border-gray-700 mt-8 pt-8 text-center text-white">
+            <p className="text-sm text-gray-400 mb-4 max-w-3xl mx-auto leading-relaxed">
+              Privacy & Data Protection Notice: Personal data of users in India is processed in accordance with the Digital Personal Data Protection Act, 2023, while New Zealand user data is governed by the Privacy Act 2020.
+            </p>
             <p>&copy; 2024 CenturianIT. All rights reserved.</p>
           </div>
         </div>
