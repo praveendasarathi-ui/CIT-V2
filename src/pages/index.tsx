@@ -809,7 +809,7 @@ const CenturianIT = () => {
               </div>
 
               {/* Praveen Dasarathi Section */}
-              <div className="mt-20 pt-16 border-t border-blue-100">
+              <div className="mt-20 pt-16 border-t border-blue-100 max-w-4xl mx-auto">
                 <div className="text-center mb-8">
                   <h4 className="text-3xl md:text-4xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent mb-2">
                     Praveen Dasarathi
@@ -831,7 +831,7 @@ const CenturianIT = () => {
                 </div>
 
                 <div className="space-y-6 text-gray-700 leading-relaxed">
-                  <p className="font-medium text-gray-900 text-center italic mb-8">
+                  <p className="font-medium text-gray-900 italic mb-8 border-l-4 border-blue-600 pl-6 py-2 bg-blue-50/50 rounded-r-lg">
                     "I don’t just solve problems — I unlock value through technology."
                   </p>
 
