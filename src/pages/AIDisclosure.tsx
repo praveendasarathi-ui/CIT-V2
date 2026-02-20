@@ -21,27 +21,27 @@ const AIDisclosure = () => {
                             <ArrowLeft className="h-4 w-4" />
                             Back to Home
                         </Button>
-                        <h1 className="text-xl md:text-2xl font-bold text-gray-900">AI & Automated Processing Disclosure</h1>
-                        <div className="w-24"></div>
+                        <h1 className="text-lg md:text-2xl font-bold text-gray-900 truncate px-4">AI Disclosure</h1>
+                        <div className="w-12 md:w-24"></div>
                     </div>
                 </div>
             </header>
 
             {/* Content */}
-            <main className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+            <main className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-6 md:py-12">
                 <Card className="border-0 shadow-xl overflow-hidden">
-                    <div className="bg-gradient-to-r from-blue-600 to-purple-600 p-8 text-white flex items-center gap-6">
-                        <div className="p-4 bg-white/20 backdrop-blur-sm rounded-2xl">
-                            <Brain className="h-12 w-12" />
+                    <div className="bg-gradient-to-r from-blue-600 to-purple-600 p-6 md:p-8 text-white flex items-center gap-4 md:gap-6">
+                        <div className="p-3 md:p-4 bg-white/20 backdrop-blur-sm rounded-2xl">
+                            <Brain className="h-8 w-8 md:h-12 md:w-12" />
                         </div>
                         <div>
-                            <h2 className="text-2xl font-bold">CenturianIT AI Disclosure</h2>
-                            <p className="text-blue-50 mt-1 opacity-90">How we leverage artificial intelligence and automation.</p>
+                            <h2 className="text-xl md:text-2xl font-bold">CenturianIT AI Disclosure</h2>
+                            <p className="text-blue-50 mt-1 opacity-90 text-sm md:text-base">How we leverage AI and automation.</p>
                         </div>
                     </div>
 
-                    <CardContent className="p-8 md:p-12">
-                        <div className="prose prose-lg max-w-none">
+                    <CardContent className="p-6 md:p-12">
+                        <div className="prose prose-sm md:prose-lg max-w-none">
                             <p className="text-gray-700 text-lg leading-relaxed mb-10">
                                 CenturianIT may use artificial intelligence (AI), automation tools, analytics systems, and secure cloud technologies to enhance service delivery, cybersecurity, and operational efficiency.
                             </p>

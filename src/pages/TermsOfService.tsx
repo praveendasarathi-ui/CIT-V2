@@ -21,17 +21,17 @@ const TermsOfService = () => {
               <ArrowLeft className="h-4 w-4" />
               Back to Home
             </Button>
-            <h1 className="text-xl md:text-2xl font-bold text-gray-900">Terms of Service</h1>
-            <div className="w-24"></div>
+            <h1 className="text-lg md:text-2xl font-bold text-gray-900 truncate px-4">Terms of Service</h1>
+            <div className="w-12 md:w-24"></div>
           </div>
         </div>
       </header>
 
       {/* Content */}
-      <main className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+      <main className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-6 md:py-12">
         <Card className="border-0 shadow-xl">
-          <CardContent className="p-8 md:p-12">
-            <div className="prose prose-lg max-w-none">
+          <CardContent className="p-6 md:p-12">
+            <div className="prose prose-sm md:prose-lg max-w-none">
               <p className="text-gray-600 mb-8">
                 <strong>Effective Date:</strong> January 1, 2024<br />
                 <strong>Last Updated:</strong> January 1, 2024

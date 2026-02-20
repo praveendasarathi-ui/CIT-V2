@@ -13,10 +13,14 @@ const DPDPPopup = () => {
     useEffect(() => {
         // Check if user has already seen the popup in this session
         const hasSeen = sessionStorage.getItem('dpdp_popup_seen');
+        const cookieConsent = localStorage.getItem('cookie-consent');
+
         if (!hasSeen) {
+            // Show after 10 seconds, but wait for cookie consent to be settled if possible
+            const delay = cookieConsent ? 5000 : 10000;
             const timer = setTimeout(() => {
                 setIsOpen(true);
-            }, 5000); // Show after 5 seconds
+            }, delay);
             return () => clearTimeout(timer);
         }
     }, []);
@@ -48,7 +52,7 @@ const DPDPPopup = () => {
                         <ShieldCheck className="w-64 h-64 rotate-12" />
                     </div>
 
-                    <div className="relative p-8 md:p-12">
+                    <div className="relative p-6 md:p-12">
                         <button
                             onClick={handleClose}
                             aria-label="Close"
@@ -64,25 +68,25 @@ const DPDPPopup = () => {
                             <span className="text-yellow-400 font-bold tracking-widest uppercase text-sm">Priority Advisory</span>
                         </div>
 
-                        <h2 className="text-3xl md:text-4xl font-black mb-6 leading-tight">
+                        <h2 className="text-2xl md:text-4xl font-black mb-4 md:mb-6 leading-tight">
                             India's DPDP Act is <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-500">NOW ACTIVE.</span>
                         </h2>
 
-                        <p className="text-lg text-blue-100 mb-8 leading-relaxed">
+                        <p className="text-base md:text-lg text-blue-100 mb-6 md:mb-8 leading-relaxed">
                             organisations are now legally obligated to protect personal data. Is your business safe from penalties and reputational risk?
                         </p>
 
-                        <div className="space-y-4 mb-10">
+                        <div className="space-y-3 md:space-y-4 mb-8 md:mb-10">
                             {[
                                 { icon: ShieldAlert, text: "Comprehensive Gap Analysis & Compliance Roadmaps" },
                                 { icon: Lock, text: "End-to-End Data Encryption & Access Governance" },
                                 { icon: Fingerprint, text: "Privacy-by-Design Architecture & Data Mapping" }
                             ].map((item, i) => (
-                                <div key={i} className="flex items-center gap-4 bg-white/5 p-4 rounded-xl border border-white/10 backdrop-blur-sm group hover:bg-white/10 transition-colors">
+                                <div key={i} className="flex items-center gap-3 md:gap-4 bg-white/5 p-3 md:p-4 rounded-xl border border-white/10 backdrop-blur-sm group hover:bg-white/10 transition-colors">
                                     <div className="p-2 bg-white/10 rounded-lg group-hover:scale-110 transition-transform">
-                                        <item.icon className="h-5 w-5 text-yellow-500" />
+                                        <item.icon className="h-4 w-4 md:h-5 md:w-5 text-yellow-500" />
                                     </div>
-                                    <span className="font-medium text-blue-50">{item.text}</span>
+                                    <span className="text-sm md:font-medium text-blue-50">{item.text}</span>
                                 </div>
                             ))}
                         </div>
