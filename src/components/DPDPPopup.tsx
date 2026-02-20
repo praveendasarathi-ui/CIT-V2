@@ -51,6 +51,7 @@ const DPDPPopup = () => {
                     <div className="relative p-8 md:p-12">
                         <button
                             onClick={handleClose}
+                            aria-label="Close"
                             className="absolute top-4 right-4 p-2 hover:bg-white/10 rounded-full transition-colors"
                         >
                             <X className="h-6 w-6" />
