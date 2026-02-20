@@ -754,149 +754,151 @@ const CenturianIT = () => {
       </section>
 
       {/* Founder Spotlight Section */}
-      <div className="mt-20">
-        <Card className="border-0 shadow-2xl overflow-hidden">
-          <CardContent className="p-0">
-            {/* Header with gradient */}
-            <div className="bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 px-8 py-6">
-              <h3 className="text-2xl md:text-3xl font-bold text-white text-center">
-                Founder Spotlight
-              </h3>
-            </div>
-
-            {/* Content */}
-            <div className="p-8 md:p-12 bg-gradient-to-br from-white to-blue-50">
-              <div className="max-w-4xl mx-auto">
-                {/* Founder Name */}
-                <div className="text-center mb-8">
-                  <h4 className="text-3xl md:text-4xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent mb-2">
-                    Naveen Dasarathi
-                  </h4>
-                  <p className="text-lg text-gray-600 font-medium mb-4">Founder & Technology Strategist</p>
-
-                  {/* Certification Badges */}
-                  <div className="flex flex-wrap justify-center gap-4 mb-8">
-                    <div className="flex items-center space-x-2 bg-gradient-to-r from-emerald-500 to-green-600 text-white px-4 py-2 rounded-full shadow-lg transform hover:scale-105 transition-transform duration-300">
-                      <ShieldCheck className="h-5 w-5" />
-                      <span className="font-bold text-sm tracking-wide">DPDP CERTIFIED</span>
-                    </div>
-                    <div className="flex items-center space-x-2 bg-gradient-to-r from-blue-500 to-cyan-600 text-white px-4 py-2 rounded-full shadow-lg transform hover:scale-105 transition-transform duration-300">
-                      <ShieldCheck className="h-5 w-5" />
-                      <span className="font-bold text-sm tracking-wide">NZ PRIVACY CERTIFIED</span>
-                    </div>
-                  </div>
-                </div>
-
-                {/* Founder Description */}
-                <div className="space-y-6 text-gray-700 leading-relaxed">
-                  <p>
-                    CenturianIT is driven by the vision and global leadership of its founder, <span className="font-semibold text-gray-900">Naveen Dasarathi</span> — a technology strategist known for translating bold ideas into measurable business outcomes. With experience spanning New Zealand, India, Australia, and the United States, Naveen brings a cross-market perspective that helps organizations align growth ambitions with risk awareness and sustainable value creation.
-                  </p>
-
-                  <p>
-                    His career foundation across IT, telecommunications, and AI-led transformation has seen him guide enterprise-scale initiatives that improve profitability, elevate customer experience, and streamline operations. Naveen is a strong advocate for practical innovation — focusing on deploying AI where it delivers tangible impact, backed by disciplined execution, governance, and ethical application.
-                  </p>
-
-                  <p>
-                    Demonstrating CenturianIT's commitment to trust and responsibility in the digital era, Naveen recently earned certification in India's <span className="font-semibold text-gray-900">Digital Personal Data Protection Act (DPDP)</span>. This milestone strengthens the organization's ability to advise clients on privacy, regulatory readiness, and data stewardship — key pillars of modern digital transformation.
-                  </p>
-
-                  <p>
-                    At the heart of CenturianIT's journey is Naveen's belief that true innovation happens where technology, business, people, and intelligent systems intersect. His leadership continues to shape the company's mission to empower organizations with resilient, secure, and future-ready technology solutions.
-                  </p>
-                </div>
-
+      <section className="mt-20 py-10">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <Card className="border-0 shadow-2xl overflow-hidden">
+            <CardContent className="p-0">
+              {/* Header with gradient */}
+              <div className="bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 px-8 py-6">
+                <h3 className="text-2xl md:text-3xl font-bold text-white text-center">
+                  Founder Spotlight
+                </h3>
               </div>
 
-              {/* Praveen Dasarathi Section */}
-              <div className="mt-20 pt-16 border-t border-blue-100 max-w-4xl mx-auto">
-                <div className="text-center mb-8">
-                  <h4 className="text-3xl md:text-4xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent mb-2">
-                    Praveen Dasarathi
-                  </h4>
-                  <p className="text-blue-600 font-bold tracking-widest uppercase text-sm mb-2">Driving Transformation Through Technology</p>
-                  <p className="text-lg text-gray-600 font-medium mb-4">Director at CenturianIT</p>
+              {/* Content */}
+              <div className="p-8 md:p-12 bg-gradient-to-br from-white to-blue-50">
+                <div className="max-w-4xl mx-auto">
+                  {/* Founder Name */}
+                  <div className="text-center mb-8">
+                    <h4 className="text-3xl md:text-4xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent mb-2">
+                      Naveen Dasarathi
+                    </h4>
+                    <p className="text-lg text-gray-600 font-medium mb-4">Founder & Technology Strategist</p>
 
-                  {/* Certification Badges */}
-                  <div className="flex flex-wrap justify-center gap-4 mb-8">
-                    <div className="flex items-center space-x-2 bg-gradient-to-r from-emerald-500 to-green-600 text-white px-4 py-2 rounded-full shadow-lg transform hover:scale-105 transition-transform duration-300">
-                      <ShieldCheck className="h-5 w-5" />
-                      <span className="font-bold text-sm tracking-wide">DPDP CERTIFIED</span>
-                    </div>
-                    <div className="flex items-center space-x-2 bg-gradient-to-r from-blue-500 to-cyan-600 text-white px-4 py-2 rounded-full shadow-lg transform hover:scale-105 transition-transform duration-300">
-                      <ShieldCheck className="h-5 w-5" />
-                      <span className="font-bold text-sm tracking-wide">NZ PRIVACY CERTIFIED</span>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="space-y-6 text-gray-700 leading-relaxed">
-                  <p className="font-medium text-gray-900 italic mb-8 border-l-4 border-blue-600 pl-6 py-2 bg-blue-50/50 rounded-r-lg">
-                    "I don’t just solve problems — I unlock value through technology."
-                  </p>
-
-                  <p>
-                    As Director at CenturianIT, Praveen brings a global perspective shaped by hands-on technical expertise and leadership experience across enterprise environments. His work centers on helping organizations translate complex challenges into practical, high-impact technology solutions that deliver measurable business outcomes.
-                  </p>
-
-                  <p>
-                    With deep expertise spanning enterprise mobility, artificial intelligence, ERP modernization, and IT infrastructure, he's led transformation initiatives across industries and geographies — from frontline implementation to strategic program leadership at global organizations including <span className="font-semibold text-gray-900">Shell and PBT</span>. His approach combines technical depth with execution discipline, ensuring innovation translates into efficiency, profitability, and sustainable growth.
-                  </p>
-
-                  <div className="bg-white/50 rounded-xl p-8 border border-blue-100 shadow-inner my-8">
-                    <h5 className="font-bold text-gray-900 mb-6 text-center">Impact Highlights</h5>
-                    <div className="grid md:grid-cols-2 gap-6">
-                      <div className="flex items-start space-x-4">
-                        <div className="w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center shrink-0">
-                          <TrendingUp className="h-5 w-5 text-blue-600" />
-                        </div>
-                        <p className="text-sm">Delivering over <span className="font-bold text-gray-900">$1M in cost savings</span> through enterprise mobility and IT optimization strategies</p>
+                    {/* Certification Badges */}
+                    <div className="flex flex-wrap justify-center gap-4 mb-8">
+                      <div className="flex items-center space-x-2 bg-gradient-to-r from-emerald-500 to-green-600 text-white px-4 py-2 rounded-full shadow-lg transform hover:scale-105 transition-transform duration-300">
+                        <ShieldCheck className="h-5 w-5" />
+                        <span className="font-bold text-sm tracking-wide">DPDP CERTIFIED</span>
                       </div>
-                      <div className="flex items-start space-x-4">
-                        <div className="w-10 h-10 rounded-full bg-purple-100 flex items-center justify-center shrink-0">
-                          <Clock className="h-5 w-5 text-purple-600" />
-                        </div>
-                        <p className="text-sm">Leading cross-functional transformation initiatives that <span className="font-bold text-gray-900">reduced administrative workload by 75%</span></p>
-                      </div>
-                      <div className="flex items-start space-x-4">
-                        <div className="w-10 h-10 rounded-full bg-green-100 flex items-center justify-center shrink-0">
-                          <Brain className="h-5 w-5 text-green-600" />
-                        </div>
-                        <p className="text-sm">Designing <span className="font-bold text-gray-900">AI-enabled workflows</span> that enhanced operational accuracy and productivity</p>
-                      </div>
-                      <div className="flex items-start space-x-4">
-                        <div className="w-10 h-10 rounded-full bg-yellow-100 flex items-center justify-center shrink-0">
-                          <Award className="h-5 w-5 text-yellow-600" />
-                        </div>
-                        <p className="text-sm">Recipient of the <span className="font-bold text-gray-900">Good Sorts and Golden Kilo Awards</span> for enterprise-wide contributions</p>
+                      <div className="flex items-center space-x-2 bg-gradient-to-r from-blue-500 to-cyan-600 text-white px-4 py-2 rounded-full shadow-lg transform hover:scale-105 transition-transform duration-300">
+                        <ShieldCheck className="h-5 w-5" />
+                        <span className="font-bold text-sm tracking-wide">NZ PRIVACY CERTIFIED</span>
                       </div>
                     </div>
                   </div>
 
-                  <p>
-                    At CenturianIT, Praveen's mission is to guide clients toward future-ready operating models — modernizing platforms, embedding intelligence into business processes, and enabling scalable digital ecosystems. He believes technology should not only support business strategy but actively accelerate it.
-                  </p>
+                  {/* Founder Description */}
+                  <div className="space-y-6 text-gray-700 leading-relaxed">
+                    <p>
+                      CenturianIT is driven by the vision and global leadership of its founder, <span className="font-semibold text-gray-900">Naveen Dasarathi</span> — a technology strategist known for translating bold ideas into measurable business outcomes. With experience spanning New Zealand, India, Australia, and the United States, Naveen brings a cross-market perspective that helps organizations align growth ambitions with risk awareness and sustainable value creation.
+                    </p>
+
+                    <p>
+                      His career foundation across IT, telecommunications, and AI-led transformation has seen him guide enterprise-scale initiatives that improve profitability, elevate customer experience, and streamline operations. Naveen is a strong advocate for practical innovation — focusing on deploying AI where it delivers tangible impact, backed by disciplined execution, governance, and ethical application.
+                    </p>
+
+                    <p>
+                      Demonstrating CenturianIT's commitment to trust and responsibility in the digital era, Naveen recently earned certification in India's <span className="font-semibold text-gray-900">Digital Personal Data Protection Act (DPDP)</span>. This milestone strengthens the organization's ability to advise clients on privacy, regulatory readiness, and data stewardship — key pillars of modern digital transformation.
+                    </p>
+
+                    <p>
+                      At the heart of CenturianIT's journey is Naveen's belief that true innovation happens where technology, business, people, and intelligent systems intersect. His leadership continues to shape the company's mission to empower organizations with resilient, secure, and future-ready technology solutions.
+                    </p>
+                  </div>
+
                 </div>
 
-                <div className="mt-10 pt-8 border-t border-blue-50 text-center">
-                  <h5 className="text-sm font-bold text-gray-500 uppercase tracking-widest mb-4">Core Expertise</h5>
-                  <div className="flex flex-wrap justify-center gap-2">
-                    {[
-                      "Enterprise Mobility Management", "Digital Transformation Strategy", "AI & Automation",
-                      "ERP Modernization", "Cloud & Infrastructure", "IT Service Management",
-                      "Cost Optimization", "Revenue Growth Enablement", "Technology Leadership"
-                    ].map((skill, i) => (
-                      <Badge key={i} variant="outline" className="border-blue-200 text-blue-700 bg-blue-50/50">
-                        {skill}
-                      </Badge>
-                    ))}
+                {/* Praveen Dasarathi Section */}
+                <div className="mt-20 pt-16 border-t border-blue-100 max-w-4xl mx-auto">
+                  <div className="text-center mb-8">
+                    <h4 className="text-3xl md:text-4xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent mb-2">
+                      Praveen Dasarathi
+                    </h4>
+                    <p className="text-blue-600 font-bold tracking-widest uppercase text-sm mb-2">Driving Transformation Through Technology</p>
+                    <p className="text-lg text-gray-600 font-medium mb-4">Director at CenturianIT</p>
+
+                    {/* Certification Badges */}
+                    <div className="flex flex-wrap justify-center gap-4 mb-8">
+                      <div className="flex items-center space-x-2 bg-gradient-to-r from-emerald-500 to-green-600 text-white px-4 py-2 rounded-full shadow-lg transform hover:scale-105 transition-transform duration-300">
+                        <ShieldCheck className="h-5 w-5" />
+                        <span className="font-bold text-sm tracking-wide">DPDP CERTIFIED</span>
+                      </div>
+                      <div className="flex items-center space-x-2 bg-gradient-to-r from-blue-500 to-cyan-600 text-white px-4 py-2 rounded-full shadow-lg transform hover:scale-105 transition-transform duration-300">
+                        <ShieldCheck className="h-5 w-5" />
+                        <span className="font-bold text-sm tracking-wide">NZ PRIVACY CERTIFIED</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="space-y-6 text-gray-700 leading-relaxed">
+                    <p className="font-medium text-gray-900 italic mb-8 border-l-4 border-blue-600 pl-6 py-2 bg-blue-50/50 rounded-r-lg">
+                      "I don’t just solve problems — I unlock value through technology."
+                    </p>
+
+                    <p>
+                      As Director at CenturianIT, Praveen brings a global perspective shaped by hands-on technical expertise and leadership experience across enterprise environments. His work centers on helping organizations translate complex challenges into practical, high-impact technology solutions that deliver measurable business outcomes.
+                    </p>
+
+                    <p>
+                      With deep expertise spanning enterprise mobility, artificial intelligence, ERP modernization, and IT infrastructure, he's led transformation initiatives across industries and geographies — from frontline implementation to strategic program leadership at global organizations including <span className="font-semibold text-gray-900">Shell and PBT</span>. His approach combines technical depth with execution discipline, ensuring innovation translates into efficiency, profitability, and sustainable growth.
+                    </p>
+
+                    <div className="bg-white/50 rounded-xl p-8 border border-blue-100 shadow-inner my-8">
+                      <h5 className="font-bold text-gray-900 mb-6 text-center">Impact Highlights</h5>
+                      <div className="grid md:grid-cols-2 gap-6">
+                        <div className="flex items-start space-x-4">
+                          <div className="w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center shrink-0">
+                            <TrendingUp className="h-5 w-5 text-blue-600" />
+                          </div>
+                          <p className="text-sm">Delivering over <span className="font-bold text-gray-900">$1M in cost savings</span> through enterprise mobility and IT optimization strategies</p>
+                        </div>
+                        <div className="flex items-start space-x-4">
+                          <div className="w-10 h-10 rounded-full bg-purple-100 flex items-center justify-center shrink-0">
+                            <Clock className="h-5 w-5 text-purple-600" />
+                          </div>
+                          <p className="text-sm">Leading cross-functional transformation initiatives that <span className="font-bold text-gray-900">reduced administrative workload by 75%</span></p>
+                        </div>
+                        <div className="flex items-start space-x-4">
+                          <div className="w-10 h-10 rounded-full bg-green-100 flex items-center justify-center shrink-0">
+                            <Brain className="h-5 w-5 text-green-600" />
+                          </div>
+                          <p className="text-sm">Designing <span className="font-bold text-gray-900">AI-enabled workflows</span> that enhanced operational accuracy and productivity</p>
+                        </div>
+                        <div className="flex items-start space-x-4">
+                          <div className="w-10 h-10 rounded-full bg-yellow-100 flex items-center justify-center shrink-0">
+                            <Award className="h-5 w-5 text-yellow-600" />
+                          </div>
+                          <p className="text-sm">Recipient of the <span className="font-bold text-gray-900">Good Sorts and Golden Kilo Awards</span> for enterprise-wide contributions</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <p>
+                      At CenturianIT, Praveen's mission is to guide clients toward future-ready operating models — modernizing platforms, embedding intelligence into business processes, and enabling scalable digital ecosystems. He believes technology should not only support business strategy but actively accelerate it.
+                    </p>
+                  </div>
+
+                  <div className="mt-10 pt-8 border-t border-blue-50 text-center">
+                    <h5 className="text-sm font-bold text-gray-500 uppercase tracking-widest mb-4">Core Expertise</h5>
+                    <div className="flex flex-wrap justify-center gap-2">
+                      {[
+                        "Enterprise Mobility Management", "Digital Transformation Strategy", "AI & Automation",
+                        "ERP Modernization", "Cloud & Infrastructure", "IT Service Management",
+                        "Cost Optimization", "Revenue Growth Enablement", "Technology Leadership"
+                      ].map((skill, i) => (
+                        <Badge key={i} variant="outline" className="border-blue-200 text-blue-700 bg-blue-50/50">
+                          {skill}
+                        </Badge>
+                      ))}
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-          </CardContent>
-        </Card>
-      </div>
+            </CardContent>
+          </Card>
+        </div>
+      </section>
 
       {/* Clients Section */}
       <section id="clients" className="py-20 bg-gradient-to-br from-purple-50 to-pink-50">
